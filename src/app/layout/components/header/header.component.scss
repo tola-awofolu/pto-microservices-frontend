@@ -1,0 +1,48 @@
+$topnav-background-color: #222;
+:host {
+	nav {
+		line-height: 2;
+	}
+	form {
+		margin-left: 2.5em;
+	}
+    .navbar {
+        background-color: $topnav-background-color;
+        .navbar-brand {
+            color: #fff;
+        }
+        .nav-item > a {
+            color: #999;
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
+    .messages {
+        width: 300px;
+        .media {
+            border-bottom: 1px solid #ddd;
+            padding: 5px 10px;
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+        .media-body {
+            h5 {
+                font-size: 13px;
+                font-weight: 600;
+            }
+            .small {
+                margin: 0;
+            }
+            .last {
+                font-size: 12px;
+                margin: 0;
+            }
+        }
+    }
+	.usptologo {
+		background: url("/assets/images/uspto-logo.png") no-repeat;
+		width: 8em;
+	}
+}
